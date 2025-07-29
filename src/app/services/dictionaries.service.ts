@@ -1,8 +1,8 @@
-import { Inject, inject, Injectable } from "@angular/core";
-import { DICTIONARIES_TOKEN } from "../tokens/dictionaries.token";
-import { getDictionary } from "../store/app.helpers";
+import { inject, Injectable } from "@angular/core";
 import { delay, Observable, of, switchMap, tap, throwError } from "rxjs";
 import { Dictionary } from "../data/dictionaries";
+import { getDictionary } from "../store/app.helpers";
+import { DICTIONARIES_TOKEN } from "../tokens/dictionaries.token";
 
 @Injectable({providedIn: 'root'})
 export class DictionariesService {
@@ -26,7 +26,7 @@ export class DictionariesService {
 
         if (typeof d === 'string') {
             return of(1).pipe(
-                delay(1000), 
+                delay(1000),
                 switchMap(_ => throwError(() => 'Error loading dictionary'))
             )
         } else {
@@ -34,9 +34,9 @@ export class DictionariesService {
                 tap(_ => console.log(`Started loading for ${language}`)),
                 delay(d),
                 tap(_ => console.log(`Finished loading for ${language}`)),
-            );    
+            );
         }
-        
+
 
     }
 }

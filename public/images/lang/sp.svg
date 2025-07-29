@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 5 36 26" width="36" height="26" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-    <path fill="#C60A1D" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v18z"></path>
-    <path fill="#FFC400" d="M0 12h36v12H0z"></path>
-    <path fill="#EA596E" d="M9 17v3a3 3 0 1 0 6 0v-3H9z"></path>
-    <path fill="#F4A2B2" d="M12 16h3v3h-3z"></path>
-    <path fill="#DD2E44" d="M9 16h3v3H9z"></path>
-    <ellipse fill="#EA596E" cx="12" cy="14.5" rx="3" ry="1.5"></ellipse>
-    <ellipse fill="#FFAC33" cx="12" cy="13.75" rx="3" ry=".75"></ellipse>
-    <path fill="#99AAB5" d="M7 16h1v7H7zm9 0h1v7h-1z"></path>
-    <path fill="#66757F" d="M6 22h3v1H6zm9 0h3v1h-3zm-8-7h1v1H7zm9 0h1v1h-1z"></path>
-</svg>
+<?xml version="1.0" ?><svg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+	.st0{fill:#324095;}
+	.st1{fill:#F4F4F4;}
+	.st2{fill:#D81E34;}
+</style><g id="XMLID_1_"><rect class="st0" height="298.7" id="XMLID_4_" width="170.7" x="0" y="106.7"/><rect class="st1" height="298.7" id="XMLID_3_" width="170.7" x="170.7" y="106.7"/><rect class="st2" height="298.7" id="XMLID_2_" width="170.7" x="341.3" y="106.7"/></g></svg>
