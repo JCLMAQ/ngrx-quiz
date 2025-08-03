@@ -53,6 +53,15 @@ importers:
       color-namer:
         specifier: ^1.4.0
         version: 1.4.0
+      material-icons:
+        specifier: ^1.13.14
+        version: 1.13.14
+      material-symbols:
+        specifier: ^0.33.0
+        version: 0.33.0
+      roboto-fontface:
+        specifier: ^0.10.0
+        version: 0.10.0
       rxjs:
         specifier: ~7.8.2
         version: 7.8.2
@@ -3175,6 +3184,12 @@ packages:
     resolution: {integrity: sha512-QMjGbFTP0blj97EeidG5hk/QhKQ3T4ICckQGLgz38QF7Vgbk6e6FTARN8KhKxyBbWn8R0HU+bnw8aSoFPD4qtQ==}
     engines: {node: ^18.17.0 || >=20.5.0}
 
+  material-icons@1.13.14:
+    resolution: {integrity: sha512-kZOfc7xCC0rAT8Q3DQixYAeT+tBqZnxkseQtp2bxBxz7q5pMAC+wmit7vJn1g/l7wRU+HEPq23gER4iPjGs5Cg==}
+
+  material-symbols@0.33.0:
+    resolution: {integrity: sha512-t9/Gz+14fClRgN7oVOt5CBuwsjFLxSNP9BRDyMrI5el3IZNvoD94IDGJha0YYivyAow24rCS0WOkAv4Dp+YjNg==}
+
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
@@ -3785,6 +3800,9 @@ packages:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
     deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
+
+  roboto-fontface@0.10.0:
+    resolution: {integrity: sha512-OlwfYEgA2RdboZohpldlvJ1xngOins5d7ejqnIBWr9KaMxsnBqotpptRXTyfNRLnFpqzX6sTDt+X+a+6udnU8g==}
 
   rollup@4.44.1:
     resolution: {integrity: sha512-x8H8aPvD+xbl0Do8oez5f5o8eMS3trfCghc4HhLAnCkj7Vl0d1JWGs0UF/D886zLW2rOj2QymV/JcSSsw+XDNg==}
@@ -7883,6 +7901,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  material-icons@1.13.14: {}
+
+  material-symbols@0.33.0: {}
+
   math-intrinsics@1.1.0: {}
 
   media-typer@0.3.0: {}
@@ -8473,6 +8495,8 @@ snapshots:
   rimraf@3.0.2:
     dependencies:
       glob: 7.2.3
+
+  roboto-fontface@0.10.0: {}
 
   rollup@4.44.1:
     dependencies:
